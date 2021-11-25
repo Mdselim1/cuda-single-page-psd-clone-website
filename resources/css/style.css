@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+    height: 0;
+    visibility: hidden;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.defpad{
+    padding: 8rem 0 ;
+}
+.container{
+    max-width: 145rem;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* header site css style ============  */
+
+.navbar{
+    background:linear-gradient(rgba(135,80 ,156 ,0.9),rgba(135,80 ,156 ,0.9)), url(img/mainbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center bottom;
+    padding: 6rem 0;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;z-index: 2;
+}
+
+.main-nav .menu li{
+    display: inline-block;
+    margin-left: 3rem;
+    border-radius: 0.6rem;
+}
+.main-nav .menu li:link,
+.main-nav .menu li a{
+    display: block;
+    font-size: 1.6rem;
+    color:#fff;
+    padding: 0.8rem 1.8rem;
+    font-weight: 400;
+    border-radius: 0.6rem;
+    transition: background 0.5s;
+}
+
+.main-nav .menu li a:hover{
+    background: #643A79;
+}
+
+.main-nav .menu li:first-child{
+    background: #643A79 !important;
+}
+.hero-text-site {
+	text-align: center;
+	max-width: 90rem;
+	margin: 14.5rem auto 12rem;
+}
+
+.hero-text-site h1 {
+	font-size: 4.2rem;
+	color: #fff;
+	font-weight: 600;
+}
+
+.hero-text-site a {
+	display: inline-block;
+	background: #EB7D4B;
+	color: #fff;
+	padding: 2.1rem 7.5rem;
+	font-size: 1.8rem;
+	font-weight: 600;
+	border-radius: 0.5rem;
+	margin-top: 5rem;
+	border-bottom: 0.3rem solid #C86A40;
+   
+}
+
+/* header style css end =================== */
+
+/* services content csss Start ================*/
+
+.services-section{
+    background:linear-gradient(rgba(23, 196, 165, 0.9),rgba(23, 196, 165, 0.9)), url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.services-upper-content h2{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1.9rem;
+}
+
+.zero-span {
+	width: 9rem;
+	height: 0.5rem;
+	margin: 2rem auto;
+	display: block;
+	background: #14A58C;
+	border-radius: 0.4rem;
+}
+
+.services-upper-content p {
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: #fff;
+	line-height: 1.4;
+	margin-bottom: 5rem;
+}
+
+.box{
+    box-sizing: border-box;
+    padding: 6rem;
+}
+.box img {
+	max-width: 100%;
+	margin-bottom: 5rem;
+	height: 13.4rem;
+}
+.box h3 {
+	font-size: 2.4rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+    color: #fff;
+}
+.box p {
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+/* service -section - css end ================ */
+
+
+/* team - section - css - start ======================  */
+.team-section{
+    background:rgba(231, 241, 248, 0.5)
+}
+.section-span{
+    background: #c8d9e5;
+}
+
+.team-section-upper h2{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #3C4761;
+    margin-bottom: 2.5rem;
+}
+
+.team-section-upper p {
+	font-size: 1.85rem;
+	font-weight: 400;
+	color: #505B72;
+	margin-top: 3rem;
+}
+
+.team-image .section-img {
+	width: 20rem;
+	height: 20rem;
+	border-radius: 50%;
+	margin-bottom: 3.5rem;
+}
+.team-section-lower{
+    margin-top: 6rem;
+}
+.team-image {
+	padding: 6rem;
+}
+.team-image h2{
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+.team-image h4{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #72CEED;
+}
+.team-image p{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #3C4761;
+    line-height: 1.4;
+}
+
+/* social site ===== */
+.social-site{
+    margin-top: 2rem;
+}
+
+.social-site ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 1.5rem;
+	
+}
+.social-site ul li a {
+	color: #fff;
+	font-size: 1.6rem;
+    height: 3.3rem;
+    display: block;
+	width: 3.3rem;
+	background: #BDD1DF;
+	line-height: 3.3rem;
+	border-radius: 50%;
+    transition:  .5s;
+}
+.social-site ul li a:hover{
+    transform: rotate(360deg);
+    background: #3C4761;
+}
+
+/* servic - section - end ======================= */
+
+/* skill section - start ========================= */
+
+.skill-section{
+    padding: 7rem 0;
+}
+
+.skill-section-upper h2{
+    color: #3C4761;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+
+.skill-span{
+    margin-bottom: 5rem;
+    background: #dfe8ed;
+}
+.skill-section-upper p {
+	color: #3C4761;
+	font-size: 1.8rem;
+	font-weight: 600;
+	line-height: 1.5;
+}
+
+.skill-section-down h3{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #3C4761;
+}
+svg.radial-progress circle{
+    stroke-width: 5px;
+}
+
+svg.radial-progress text{
+    fill: #3C4761;
+    font-size: 1.2rem;
+}
+
+svg.web-design circle{
+    stroke: #30BAE7;
+}
+svg.html-css circle{
+    stroke: #D74680;
+}
+svg.graphic-design circle{
+    stroke: #15C7A8;
+}
+svg.ui-ux circle{
+    stroke: #EB7D4B;
+}
